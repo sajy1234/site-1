@@ -1,0 +1,96 @@
+@font-face{
+    font-family:'Sukar Black';
+    src: url('//font/Sukar Black.ttf')
+    }  
+@font-face{
+    font-family:'TheMixArab Black';
+    src: url('//font/TheMixArab Black.ttf')
+    }  
+body{
+    background-image: url(background.png);
+    
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    height: 640px;
+}
+.wrapper h3, h1, p{
+    text-align: center;
+}
+.wrapper h3{
+    font-family: "TheMixArab Black";
+}
+.wrapper h1{
+    color: #0076a6;
+    font-family: "JF Flat regular_0";
+}
+.wrapper h1 span{
+    font-size: 28px;
+}
+.wrapper p{
+width: 40%;
+margin-left: 30%;
+    margin-bottom: 115px;
+    font-family: 'Sukar Black';
+}
+.wrapper p:hover{
+    color: crimson;
+}
+.twitter{
+    width: 250px;
+height: 377px;
+float: right;
+    box-shadow: 4px 4px 4px rgb(102, 102, 102);
+    margin-right: 15px;
+}
+h2{
+    float: right;
+text-align: center;
+margin-right: 15%;
+margin-top: 90px;
+font-size: 35px;
+width: 160px;
+}
+h2:hover{
+    color: darkmagenta;
+}
+
+.instagram img{
+    width: 50px;
+height: 50px;
+float: right;
+margin-right: 160px;
+margin-top: 100px;
+    
+}
+.instagram img:hover{
+}
+.instagram h3{
+    width: 200px;
+display: inline-block;
+float: right;
+margin-right: 85px;
+    margin-top: 5px;
+    color: #634bc2;
+}
+.h4-instagram{
+    width: 200px;
+display: inline-block;
+float: right;
+margin-right: 46px;
+margin-top: -15px;
+    text-decoration: underline;
+color: #111;
+}
+.h4-instagram:hover{
+    color: blue;
+}
+.footer{
+    display: inline-block;
+width: 100%;
+background-color: rgb(85, 85, 85);
+color: rgb(221, 221, 221);
+margin-top: 40px;
+}

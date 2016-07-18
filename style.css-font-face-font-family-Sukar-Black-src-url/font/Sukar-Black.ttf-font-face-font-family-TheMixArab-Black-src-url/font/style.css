@@ -1,3 +1,30 @@
+/* CSS Global Responsive */
+/* laptops */
+@media screen and (max-width:960px) {
+
+}
+
+/* Tablets  */
+@media only screen and (max-width:768px) {
+
+}
+
+/* Small Tablets  */
+@media only screen and (min-width:640px){
+
+}
+
+/* Large Mobile  */
+@media only screen and (max-width:480px){
+
+}
+
+/* Mobile  */
+@media screen and (max-width:320px){
+
+}
+
+
 @font-face{
     font-family:'Sukar Black';
     src: url('//font/Sukar Black.ttf')
@@ -8,7 +35,7 @@
     }  
 body{
     background-image: url(%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A9%20%D8%B4%D9%81%D8%A7%D9%81%D8%A9.png);
-    
+    height: 100%
     
 }
 .clear{
@@ -36,6 +63,9 @@ height: 36px;
 .wrapper h1 span{
     font-size: 28px;
 }
+.wrapper h1:hover{
+    font-size: 35px;
+}
 .wrapper p{
 width: 40%;
 margin-left: 30%;
@@ -44,6 +74,11 @@ margin-left: 30%;
 }
 .wrapper p:hover{
     color: crimson;
+    font-size: 18px;
+}
+.twitte{
+    width: 33.3333%;
+    float: right;
 }
 .twitter{
     width: 250px;
@@ -52,28 +87,48 @@ float: right;
     box-shadow: 4px 4px 4px rgb(102, 102, 102);
     margin-right: 15px;
 }
+.h2{
+    width: 33.3333%;
+    float: right;
+}
 h2{
     float: right;
 text-align: center;
-margin-right: 15%;
-margin-top: 90px;
+margin-right: 32%;
+    margin-top: 90px;
 font-size: 35px;
 width: 160px;
+    color: #0076a6;
 }
 h2:hover{
     color: darkmagenta;
 }
-
+.instagram{
+    height: 400px;
+width: 33.3333%;
+float: right;
+}
 .instagram img{
     width: 50px;
 height: 50px;
 float: right;
 margin-right: 160px;
 margin-top: 100px;
+    -moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
     
 }
 .instagram img:hover{
+    -moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
 }
+
 .instagram h3{
     width: 200px;
 display: inline-block;
@@ -100,4 +155,19 @@ width: 100%;
 background-color: rgb(85, 85, 85);
 color: rgb(221, 221, 221);
 margin-top: 40px;
+}
+ul{list-style-type:none;list-style:none;margin-right: 46%;}
+ul li{list-style-type:none;list-style:none;
+float: right;
+margin-right: 15px;
+font-size: 25px;
+}
+#instagram:hover{
+    color: #e95950;
+}
+#twitter:hover{
+    color:  #00aced;
+}
+ul a{
+    color: #fff;
 }

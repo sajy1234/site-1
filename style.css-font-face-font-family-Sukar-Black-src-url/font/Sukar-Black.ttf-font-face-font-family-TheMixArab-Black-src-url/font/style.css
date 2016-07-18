@@ -56,10 +56,10 @@ padding: 0;
 .clear{
     clear: both;
 }
-.wrapper{
+.main-wrapper{
     height: 640px;
 }
-.wrapper h3, h1, p{
+.main-wrapper h3, h1, p{
     text-align: center;
 }
 .header{
@@ -72,14 +72,14 @@ height: 36px;
         font-family: TheMixArab;
 
 }
-.wrapper h1{
+.main-wrapper h1{
     color: #0076a6;
     font-family: Sukar;
 }
-.wrapper h1 span{
+.main-wrapper h1 span{
     font-size: 28px;
 }
-.wrapper h1:hover{
+.main-wrapper h1:hover{
     font-size: 40px;
     z-transition: all 0.8s ease-in-out;
 -webkit-transition: all 0.8s ease-in-out;
@@ -87,13 +87,13 @@ height: 36px;
 -ms-transition: all 0.8s ease-in-out;
 transition: all 0.8s ease-in-out;
 }
-.wrapper p{
+.main-wrapper p{
 width: 40%;
 margin-left: 30%;
     margin-bottom: 115px;
     font-family: JF;
 }
-.wrapper p:hover{
+.main-wrapper p:hover{
     color: crimson;
     font-size: 22px;
     z-transition: all 0.8s ease-in-out;
@@ -107,7 +107,7 @@ transition: all 0.8s ease-in-out;
     float: right;
     overflow: hidden;
     width: 270px;
-    margin-right: 150px;
+    margin-right: 10%;
 }
 .twitte{
 }
@@ -215,3 +215,131 @@ font-size: 25px;
 ul a{
     color: #fff;
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+
+}
+
+@media (max-width: 1050px) {
+#header {width: 26%;}
+.main-wrapper { margin-left:335px; width:auto; }
+
+}
+
+@media (max-width: 1000px) {
+.main-wrapper { margin-left:340px; width:auto; }
+.bukshan{width: 35%; margin-left:15px;}
+.footer{width:22.8%;} 
+.delate{width:48%;}
+
+}
+
+@media (max-width: 950px) {
+
+}
+
+
+@media (max-width: 800px) {
+
+.menu,.Pagemenu,.label-postar1web{display: none;}
+.resp-desk {display: block; margin-top:0px;}
+.mainWrap {width: 768px;}
+nav {margin: 0; background: none;}
+.menu,.Pagemenu{border-top:2px solid #3498DB;}
+.menu li,.Pagemenu li {display: block; margin: 0;}
+.menu ul li a{margin-right:25px; float:none; min-width:auto;}
+.menu li a,.Pagemenu li a {background: #fbfbfb; color: #909090;}
+.menu li a:hover,.menu li:hover>a,.Pagemenu li a:hover,.menu ul li a:hover,.menu ul li:hover>a {background: #F6F6F6; color: #909090;}
+.menu ul {visibility: hidden; opacity: 0; top: 0; right: 0; width: 100%; transform: initial;}
+.menu li:hover>ul {visibility: visible; opacity: 1; position: relative; transform: initial;}
+.menu ul ul {right: 0; transform: initial;}
+.menu li>ul ul:hover {transform: initial;}
+.with-ul::after,.menu ul::after{color:#909090; border-bottom-color:#909090;}
+.mage{}
+#peekar{padding:0; margin:-40px 10px 0;}
+.social-ico{margin:-35px 12px 0 0;}
+#Label1 .widget-content {
+    padding: 20px;
+}
+.comment-form p {margin-bottom: 0;}
+}
+
+
+@media (max-width: 800px) {
+.ct-wrapper{ padding:0 0px;}
+#header { float: right; text-align: right; width: 36%;}
+.header-left {display:block; }
+.main-wrapper { margin-left:0px; width:auto; }
+.sidebar-wrapper{margin-top:20px; float: right; }
+.bukshan {width: 40%;}
+.footer{width:22.2%;}
+.sly-error{background-size: cover!important;}
+.board1 li:first-child{margin-bottom:16px;}
+.board1 li:first-child, .board1 li{}
+
+.beard li{width:47%; margin-right:2%;}
+
+#lists, #bulls{margin-right:14px; margin:left:14px;}
+.delate{width:48%;}
+.attribution {text-align:center;}
+
+}
+
+@media (max-width: 700px) {
+#header{width: 46%;}
+
+.footer{width:48%;}
+ul.social-profile-icons{display:block;}
+.board1 li:first-child, .tears li:first-child{width:97.2%;}
+.board1 li, .tears li{width:46%; float:right; margin:0px 18px 16px 0;}
+.delate{width:45%;}
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 500px) {
+.ct-wrapper{ padding:0 0px;}
+.bukshan{margin:5px 12px 7px 0; width: 45%;}
+.footer{width:45.4%;}
+.delate{width:70%;}
+.deen{float:right; width:300px;}
+#header{width: 60%;}
+.dix{display:none;}
+
+}
+
+
+@media (max-width: 400px) {
+#header img{width:100%;}
+#header{ float: none; text-align: center; width: 100%;}
+.header-left{display:none;}
+
+.sidebar-wrapper{width:318px;}
+.sidebar .widget{padding:8px 8px;}
+.board1 li, .tears li{width:97.2%; margin:0px 0px 8px;}
+.bukshan{margin:0 0 18px; width: 100%;}
+.crosscol{margin: 48px 0 25px;}
+
+.beard li{width:96%; margin-right:2%;}
+
+#lists, #bulls{margin-right:8px; margin:left:8px;}
+.social-ico{margin:-27px 12px 0 0;}
+.resp-desk {padding:4px 0 4px;}
+.delate{width:100%;}
+.footer{width:98%;}
+.righter{margin:0 10px;}
+li.taze, .go-ico{display:none;}
+a.whatz{display:inline;}
+.dix{display:inline;}
+
+}
+
+@media (max-width: 300px) {
+.sidebar-wrapper{width:236px;}
+.sidebar .widget{padding:8px 2px;}
+.main-wrapper { margin-left: 0;  width: 100%;}
+
+

@@ -1,42 +1,56 @@
-/* CSS Global Responsive */
-/* laptops */
-@media screen and (max-width:960px) {
-
-}
-
-/* Tablets  */
-@media only screen and (max-width:768px) {
-
-}
-
-/* Small Tablets  */
-@media only screen and (min-width:640px){
-
-}
-
-/* Large Mobile  */
-@media only screen and (max-width:480px){
-
-}
-
-/* Mobile  */
-@media screen and (max-width:320px){
-
-}
+@media screen and (max-width : 1280px) {
+ /* CSS FOR NETBOOK AND DESKTOP ------------*/
+ }
+ 
+ @media screen and (max-width : 1024px) {
+ /* CSS FOR TABLETS ------------*/
+ }
+ 
+ @media screen and (max-width : 768px) {
+ /* CSS FOR SMALL TABLETS ------------*/
+ }
+ 
+ @media screen and (max-width : 640px) {
+ /* CSS FOR IPHONE ------------*/
+ }
+ 
+ @media screen and (max-width : 480px) {
+ /* CSS FOR MOBILES ------------*/
+ }
+ 
+ @media screen and (max-width : 320px) {
+ /* CSS FOR SMALL OLD MOBILES ------------*/
+ }
 
 
 @font-face{
-    font-family:'Sukar Black';
-    src: url('//font/Sukar Black.ttf')
+    font-family:'Sukar';
+    src: url('../fonts/Sukar.ttf')
     }  
 @font-face{
-    font-family:'TheMixArab Black';
-    src: url('//font/TheMixArab Black.ttf')
+    font-family:'TheMixArab';
+    src: url('../fonts/TheMixArab Black.ttf')
+    }  
+@font-face{
+    font-family:'JF';
+    src: url('../fonts/JF Flat regular_0.ttf')
+    }  
+@font-face{
+    font-family:'TheMixArab';
+    src: url('../fonts/TheMixArab Regular.ttf')
+    }  
+@font-face{
+    font-family:'SukarBold';
+    src: url('../fonts/SukarBold.ttf')
     }  
 body{
     background-image: url(https://github.com/sajy1234/site-1/blob/master/background.png?raw=true);
     height: 100%
     
+}
+.container{
+    width: 1110px;
+    margin: auto;
 }
 .clear{
     clear: both;
@@ -52,13 +66,14 @@ body{
 height: 36px;
 }
 .header h3{
-    font-family: "TheMixArab Black";
     text-align: center;
     color: #fff;
+        font-family: TheMixArab;
+
 }
 .wrapper h1{
     color: #0076a6;
-    font-family: "JF Flat regular_0";
+    font-family: Sukar;
 }
 .wrapper h1 span{
     font-size: 28px;
@@ -70,7 +85,7 @@ height: 36px;
 width: 40%;
 margin-left: 30%;
     margin-bottom: 115px;
-    font-family: 'Sukar Black';
+    font-family: JF;
 }
 .wrapper p:hover{
     color: crimson;
@@ -94,11 +109,17 @@ float: right;
 h2{
     float: right;
 text-align: center;
-margin-right: 32%;
+margin-right: 25%;
     margin-top: 90px;
-font-size: 35px;
-width: 160px;
+font-size: 50px;
+width: 212px;
     color: #0076a6;
+    font-family: TheMixArab;
+    line-height: 69px;
+    
+}
+h2:hover{
+    font-size: 55px;
 }
 h2:hover{
     color: darkmagenta;
@@ -136,6 +157,7 @@ float: right;
 margin-right: 85px;
     margin-top: 5px;
     color: #634bc2;
+    font-family: SukarBold;
 }
 .h4-instagram{
     width: 200px;
@@ -154,7 +176,7 @@ color: #111;
 width: 100%;
 background-color: rgb(85, 85, 85);
 color: rgb(221, 221, 221);
-margin-top: 40px;
+margin-top: 12%;
 }
 ul{list-style-type:none;list-style:none;margin-right: 46%;}
 ul li{list-style-type:none;list-style:none;

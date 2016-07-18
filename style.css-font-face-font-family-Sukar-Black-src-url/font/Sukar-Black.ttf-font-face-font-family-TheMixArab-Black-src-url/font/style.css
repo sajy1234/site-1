@@ -50,6 +50,7 @@ padding: 0;
     
 }
 .container{
+    width: 100%;
     margin: auto;
 }
 .clear{
@@ -101,10 +102,14 @@ margin-left: 30%;
 -ms-transition: all 0.8s ease-in-out;
 transition: all 0.8s ease-in-out;
 }
+.content {
+    margin-top: 50px;
+    float: right;
+    overflow: hidden;
+    width: 330px;
+    margin-left: 150px;
+}
 .twitte{
-  width: 360px;
-  float: right;
-  margin-right: 7%;
 }
 .twitter{
     width: 250px;
@@ -115,8 +120,6 @@ float: right;
     border: 5px solid #c3e0ec;
 }
 .h2{
-    width: 350px;
-    float: right;
 }
 h2{
     float: right;
@@ -144,7 +147,6 @@ h2:hover{
 }
 .instagram{
     height: 400px;
-width: 350px;
 float: right;
 }
 .instagram img{

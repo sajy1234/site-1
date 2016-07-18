@@ -45,11 +45,12 @@
     }  
 body{
     background-image: url(https://github.com/sajy1234/site-1/blob/master/background.png?raw=true);
-    height: 100%
+    height: 100%;
+padding: 0;
     
 }
 .container{
-    width: 1110px;
+    width: 100%;
     margin: auto;
 }
 .clear{
@@ -79,7 +80,12 @@ height: 36px;
     font-size: 28px;
 }
 .wrapper h1:hover{
-    font-size: 35px;
+    font-size: 40px;
+    z-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
 }
 .wrapper p{
 width: 40%;
@@ -89,11 +95,17 @@ margin-left: 30%;
 }
 .wrapper p:hover{
     color: crimson;
-    font-size: 18px;
+    font-size: 22px;
+    z-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
 }
 .twitte{
-    width: 33.3333%;
+    width: 350px;
     float: right;
+    margin-right: 7%;
 }
 .twitter{
     width: 250px;
@@ -101,9 +113,10 @@ height: 377px;
 float: right;
     box-shadow: 4px 4px 4px rgb(102, 102, 102);
     margin-right: 15px;
+    border: 5px solid #c3e0ec;
 }
 .h2{
-    width: 33.3333%;
+    width: 350px;
     float: right;
 }
 h2{
@@ -116,17 +129,23 @@ width: 212px;
     color: #0076a6;
     font-family: TheMixArab;
     line-height: 69px;
+
     
 }
 h2:hover{
-    font-size: 55px;
+    font-size: 58px;
+    z-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
 }
 h2:hover{
     color: darkmagenta;
 }
 .instagram{
     height: 400px;
-width: 33.3333%;
+width: 350px;
 float: right;
 }
 .instagram img{
@@ -173,10 +192,12 @@ color: #111;
 }
 .footer{
     display: inline-block;
-width: 100%;
 background-color: rgb(85, 85, 85);
 color: rgb(221, 221, 221);
 margin-top: 12%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;  
 }
 ul{list-style-type:none;list-style:none;margin-right: 46%;}
 ul li{list-style-type:none;list-style:none;
